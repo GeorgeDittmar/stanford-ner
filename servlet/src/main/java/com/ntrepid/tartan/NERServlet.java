@@ -1,14 +1,18 @@
 package com.ntrepid.tartan;
 
-import java.io.*;
-import java.util.*;
-import java.util.zip.*;
+import edu.stanford.nlp.ie.AbstractSequenceClassifier;
+import edu.stanford.nlp.ie.crf.CRFClassifier;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
-
-import edu.stanford.nlp.ie.*;
-import edu.stanford.nlp.ie.crf.*;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.zip.GZIPInputStream;
 
 
 /**

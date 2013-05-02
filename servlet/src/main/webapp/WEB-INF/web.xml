@@ -22,20 +22,21 @@
         </init-param>
         <init-param>
             <param-name>crf-3-all2008-distsim</param-name>
-            <param-value>/WEB-INF/resources/classifiers/ner-eng-ie.crf-3-all2008-distsim.ser.gz</param-value>
+            <param-value>/WEB-INF/classes/classifiers/ner-eng-ie.crf-3-all2008-distsim.ser.gz</param-value>
         </init-param>
         <init-param>
             <param-name>crf-3-all2008</param-name>
-            <param-value>/WEB-INF/resources/classifiers/ner-eng-ie.crf-3-all2008.ser.gz</param-value>
+            <param-value>/WEB-INF/classes/classifiers/ner-eng-ie.crf-3-all2008.ser.gz</param-value>
         </init-param>
         <init-param>
             <param-name>crf-4-conll-distsim</param-name>
-            <param-value>/WEB-INF/resources/classifiers/ner-eng-ie.crf-4-conll-distsim.ser.gz</param-value>
+            <param-value>/WEB-INF/classes/classifiers/ner-eng-ie.crf-4-conll-distsim.ser.gz</param-value>
         </init-param>
         <init-param>
             <param-name>crf-4-conll</param-name>
-            <param-value>/WEB-INF/resources/classifiers/ner-eng-ie.crf-4-conll.ser.gz</param-value>
+            <param-value>/WEB-INF/classes/classifiers/ner-eng-ie.crf-4-conll.ser.gz</param-value>
         </init-param>
+
         <init-param>
             <param-name>outputFormat</param-name>
             <param-value>inlineXML</param-value>
